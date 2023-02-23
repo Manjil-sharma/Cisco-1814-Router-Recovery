@@ -13,5 +13,7 @@ However, my interest in the router was rekindled when I started my second semest
 
 - NOTE<br>
 
-       ROMMON, short for ROM Monitor, is a special diagnostic mode and bootstrap program used by Cisco devices, including routers <br> and switches. It is a low-level software that runs on the device's hardware and provides basic functionalities for booting the device, loading the operating system, and troubleshooting various issues.
+      ROMMON, short for ROM Monitor, is a special diagnostic mode and bootstrap program used by Cisco devices, including routers and switches. It is a low-level software that runs on the device's hardware and provides basic functionalities for booting the device, loading the operating system, and troubleshooting various issues.
+      
+      
 
