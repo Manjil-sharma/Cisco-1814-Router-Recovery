@@ -17,7 +17,9 @@ However, my interest in the router was rekindled when I started my second semest
 
 - NOTE<br>
 
-      ROMMON, short for ROM Monitor, is a special diagnostic mode and bootstrap program used by Cisco devices, including routers and switches. It is a low-level software that runs on the device's hardware and provides basic functionalities for booting the device, loading the operating system, and troubleshooting various issues.
+      ROMMON, short for ROM Monitor, is a special diagnostic mode and bootstrap program used by Cisco devices, including routers 
+      and switches.It is a low-level software that runs on the device's hardware and provides basic functionalities for booting 
+      the device, loading the operating system, and troubleshooting various issues.
  <br>     
 I didn't have much knowledge about the ROMMON environment. I had only read about it and knew only a few commands. Fortunately, Cisco has a helpful option available. With my limited knowledge and the help option, I was able to access and view the contents of the flash memory.<br>
 
@@ -27,26 +29,29 @@ I didn't have much knowledge about the ROMMON environment. I had only read about
 </p><br>
 
 
-I made a casual attempt to boot the image, but encountered this error:
+I made a casual attempt to boot the image, but encountered this error.
 
 <br>
 <p align="center">
   <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/3.PNG?raw=true">
 </p><br>
 
-- After conducting some research, I discovered that the **loadprog: bad file magic number: 0x0** error message signifies that the program cannot be executed by the operating system due to its unexpected format. This error typically arises when attempting to launch a binary executable file that has either been corrupted or is not compatible with the system architecture.<br>
+- After conducting some research, I discovered that the "**loadprog: bad file magic number: 0x0**" error message signifies that the program cannot be executed by the operating system due to its unexpected format. This error typically arises when attempting to launch a binary executable file that has either been corrupted or is not compatible with the system architecture.<br>
 
-- The second error message, **boot: cannot load flash:**, clearly indicates that there is an issue with the flash memory.
+- The second error message, "**boot: cannot load flash:**", clearly indicates that there is an issue with the flash memory.
 
-- These two error occur together and indicate that the system failed to load the specified file from the flash memory.
+- These two error occur together and indicate that the system failed to load the specified file from the flash memory.<br>
 
-Then I using **dir flash:** command I got the following result:<br>
+Then I used **dir flash:** command to see the content of flash memory<br>
 
 <br>
 <p align="center">
   <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/4.PNG?raw=true">
 </p><br>
 
+
+Based on the results, it is apparent that the IOS image is absent as it typically ends with the **".bin"** extension, which was not found.
+This prompted me to conduct further research about the other files, their functions, and usefulness.<br>
 
 
 
