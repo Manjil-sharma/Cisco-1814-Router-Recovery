@@ -54,6 +54,13 @@ Based on the results, it is apparent that the IOS image is absent as it typicall
 This prompted me to conduct further research about the other files, their functions, and usefulness.<br>
 
 
+## Research And OS Recovery process
+
+
+
+
+
+
 
 
       
