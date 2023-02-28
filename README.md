@@ -57,6 +57,20 @@ This prompted me to conduct further research about the other files, their functi
 ## Research And OS Recovery process
 
 
+I have not delved this deeply into Cisco before, but I have become interested and would like to explore further. To begin, I have previously discussed flash memory, but there are actually several types of memory utilized in Cisco devices. Cisco devices use several types of memory to perform their functions. Here are some of the main types of memory used in Cisco devices:<br>
+
+- RAM (Random Access Memory): This is volatile memory that is used to temporarily store **running configurations**, routing tables, ARP caches, and other dynamic information. RAM loses its contents when the device is powered off or restarted.<br>
+
+- ROM (Read-Only Memory): This is non-volatile memory that stores the device's firmware and basic operating system. ROM is read-only, so its contents cannot be modified.<br>
+
+- NVRAM (Non-Volatile Random Access Memory): This is non-volatile memory that is used to store the device's **startup configuration**. NVRAM retains its contents even when the device is powered off or restarted.<br>
+
+- Flash Memory: This is non-volatile memory that is used to store IOS images, configuration files, and other software components. Flash memory retains its contents even when the device is powered off or restarted.<br>
+
+- EEPROM (Electrically Erasable Programmable Read-Only Memory): This is non-volatile memory that is used to store small amounts of configuration data, such as MAC addresses or serial numbers. EEPROM can be erased and reprogrammed electronically.<br>
+
+Let's delve further into the outcomes of the 'dir flash:' command.<br>
+
 
 
 
