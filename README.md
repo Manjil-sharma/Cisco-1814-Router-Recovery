@@ -78,9 +78,13 @@ Let's delve further into the outcomes of the 'dir flash:' command. After the pro
 </p><br>
 
 
-The "**<span style="color:red">entry point</span>**" refers to the memory address where the program starts executing after being loaded into memory. The specific memory address of the entry point is shown as "0x8000f000" in the output.
+The "**entry point**" refers to the memory address where the program starts executing after being loaded into memory. The specific memory address of the entry point is shown as "**0x8000f000**" in the output. In general, the entry point is the first instruction that is executed when a program is run. It typically contains code that initializes the program's data structures and sets up the program's execution environment.<br>
 
-In general, the entry point is the first instruction that is executed when a program is run. It typically contains code that initializes the program's data structures and sets up the program's execution environment.
+The "**size**" refers to the size of the program that was loaded into memory. The specific size of the program is shown as "**0xcb80**" in the output. The size of a program is typically measured in bytes and indicates the amount of memory that is required to store the program. In this case, the size of the program is 0xcb80 bytes, which is equivalent to 52160 bytes. This means that the program occupies a total of 52160 bytes of memory in the Cisco device's flash memory.<br>
+
+
+
+
 
 
 
