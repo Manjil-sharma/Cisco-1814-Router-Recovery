@@ -83,6 +83,19 @@ The "**entry point**" refers to the memory address where the program starts exec
 The "**size**" refers to the size of the program that was loaded into memory. The specific size of the program is shown as "**0xcb80**" in the output. The size of a program is typically measured in bytes and indicates the amount of memory that is required to store the program. In this case, the size of the program is 0xcb80 bytes, which is equivalent to 52160 bytes. This means that the program occupies a total of 52160 bytes of memory in the Cisco device's flash memory.<br>
 
 
+We can now observe the contents of the flash memory, which comprise several files as displayed in the above figure. Looking at the figure, we can observe four columns that contain a combination of numbers and letters. The first column displays the Index node number for each file.<br>
+
+#### What is 5637?
+In the context of the output for the "**dir flash:**" command, "**5637**" refers to the first column of the listed files, which displays the file's inode number or index node number. The inode is a data structure used by the file system to store information about a file, including its attributes and location on the storage device.<br>
+
+In this case, the inode number "**5637**" represents the first file in the flash directory, which is "**sdmconfig-18xx.cfg**". Each file in the flash directory has a unique inode number assigned to it.
+
+#### Index Node Number
+An index node number, also known as an inode number, is a unique identifier assigned to each file and directory in a file system. Inodes are used by the file system to store metadata about a file or directory, such as its owner, permissions, creation and modification times, and the file's location on the storage device.<br>
+
+The inode number is an integer value that is used by the file system to locate the file or directory on the storage device. It is a unique identifier for the file or directory, which allows the file system to distinguish it from other files or directories with the same name or path.<br>
+
+
 
 
 
