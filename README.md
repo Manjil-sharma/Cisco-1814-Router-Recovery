@@ -85,7 +85,7 @@ The "**size**" refers to the size of the program that was loaded into memory. Th
 
 We can now observe the contents of the flash memory, which comprise several files as displayed in the above figure. Looking at the figure, we can observe four columns that contain a combination of numbers and letters.<br>
 
-#### What is 5637?
+### What is 5637?
 In the context of the output for the "**dir flash:**" command, "**5637**" refers to the first column of the listed files, which displays the file's inode number or index node number. The inode is a data structure used by the file system to store information about a file, including its attributes and location on the storage device.<br>
 
 In this case, the inode number "**5637**" represents the first file in the flash directory, which is "**sdmconfig-18xx.cfg**". Each file in the flash directory has a unique inode number assigned to it.
@@ -95,7 +95,7 @@ An index node number, also known as an inode number, is a unique identifier assi
 
 The inode number is an integer value that is used by the file system to locate the file or directory on the storage device. It is a unique identifier for the file or directory, which allows the file system to distinguish it from other files or directories with the same name or path.<br>
 
-#### What is 2746?
+### What is 2746?
 
 In the output of the "dir flash:" command on Cisco devices, the second column of the listed files represents the size of the file "sdmconfig-18xx.cfg" in bytes.Each file in the flash directory has a specific size, which is determined by the amount of data it contains. The size of the file is important because it determines the amount of storage space it occupies in the flash memory.<br>
 
@@ -104,23 +104,23 @@ In the output of the "dir flash:" command on Cisco devices, the second column of
 
 - "**sdmconfig-18xx.cfg**" is a filename listed in the output of the "dir flash:" command.
 
-###  sdmconfig-18xx.cfg
+####  sdmconfig-18xx.cfg
 
 The sdmconfig-18xx.cfg file in a Cisco 1841 router flash stores the configuration settings for the SDM (Security Device Manager), which is the web-based graphical interface used to manage the router's security features. The file contains the SDM configuration settings, such as the access control list (ACL) entries, firewall policies, and VPN configurations.<br>
 
-### es.tar
+#### es.tar
 
 The es.tar file in a Cisco device is typically a backup file for the device's IOS (Internetwork Operating System) software. It contains the image of the device's operating system, which can be used to restore the system to a previous state in the event of a software failure or to upgrade the system to a newer version. The ".tar" extension indicates that the file is a tar archive, a type of compressed file format commonly used for software distribution.<br>
 
-### common.tar
+#### common.tar
 
 The common.tar file in a Cisco device is a backup file that contains configuration information, such as device settings and configuration files, that are common across multiple devices. This information can be used to quickly configure a new device or to restore an existing device to a previous state in the event of a failure.<br>
 
-### home.shtml
+#### home.shtml
 
 The home.shtml file in a Cisco device is a web page file, typically used for the device's web interface. The ".shtml" extension indicates that the file contains both HTML (Hypertext Markup Language) code and server-side scripting code, such as Perl or CGI (Common Gateway Interface) scripts. This file is used to display the device's status and configuration information to users via a web browser. It is also used to provide a graphical user interface for configuring and managing the device.<br>
 
-### home.tar
+#### home.tar
 
 The home.tar file in a Cisco device is a backup file that contains the configuration information and web interface files for the device's web server. This file can be used to restore the device's web server to a previous state in the event of a failure or to transfer the web server configuration to a different device.<br>
 
