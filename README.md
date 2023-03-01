@@ -125,7 +125,18 @@ The home.shtml file in a Cisco device is a web page file, typically used for the
 The home.tar file in a Cisco device is a backup file that contains the configuration information and web interface files for the device's web server. This file can be used to restore the device's web server to a previous state in the event of a failure or to transfer the web server configuration to a different device.<br>
 
 
+## TFTP Server Setup
 
+Upon conducting some research, I discovered that in order to transfer the OS file to the router, I needed to create a TFTP server. Consequently, I installed Tftpd64 and began my search for the iOS image.<br>
+
+<br>
+<p align="center">
+  <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/tftp1.PNG?raw=true">
+</p><br>
+
+After conducting further research on Cisco's official sites and the Cisco Learning Community, I discovered that Cisco announced the end of life announcement for the Cisco 1814 in 2014, and the end of maintenance date was in 2015. As a result, it is no longer possible to locate the OS for the Cisco 1814 on Cisco's official website.<br>
+
+I searched through various unofficial sites, but was unable to find the exact operating system for my 1814 router. Eventually, I decided to use c1841-adventerprisek9-mz.124-9.t1.bin, which was a genuine OS provided to me by a friend. Although I was initially hesitant about its compatibility, I decided to proceed with the installation.<br>
 
 
 
