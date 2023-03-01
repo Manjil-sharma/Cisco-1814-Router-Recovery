@@ -137,6 +137,15 @@ After conducting further research on Cisco's official sites and the Cisco Learni
 
 I searched through various unofficial sites, but was unable to find the exact operating system for my 1814 router. Eventually, I decided to use **c1841-adventerprisek9-mz.124-9.t1.bin**, which was a genuine OS provided to me by a friend. Although I was initially hesitant about its compatibility, I decided to proceed with the installation.<br>
 
+### Network Layout
+
+
+<br>
+<p align="center">
+  <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/flow.drawio%20(1).png?raw=true">
+</p><br>
+
+
 
 
 
