@@ -155,10 +155,28 @@ Based on the picture above, I have configured my PC as a TFTP server, with the I
   <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/7.PNG?raw=true">
 </p><br>
 
-I believe that the picture is self-explanatory and we can clearly understand what's happening. The TFTP_File command refers to the  file  that is going to be transfered from the TFTP server to a Cisco router.<br>
+I believe that the picture is self-explanatory and we can clearly understand what's happening. The TFTP_File command refers to the  file  that is going to be transfered from the TFTP server to a Cisco router.In this scenario, the default gateway was not necessary since the TFTP server is on the same network. However, if the server was located on the internet or a different network, then providing the default gateway would be necessary for file transfer to work.<br>
 
-In this scenario, the default gateway was not necessary since the TFTP server is on the same network. However, if the server was located on the internet or a different network, then providing the default gateway would be necessary for file transfer to work.<br>
 
+
+After that process I used the "**tftpdnld**" command, which is a ROM Monitor (ROMMON) command available on Cisco devices. This command is used for downloading and installing new OS images through TFTP (Trivial File Transfer Protocol). It comes in handy when the device's existing OS is corrupted or missing, and the device cannot boot up normally, which was our situation. The "tftpdnld" command initiates a TFTP download process and loads the new OS image onto the device's flash memory.<br>
+
+
+I pressed the Enter key. The system then prompted me to confirm, and I selected "y" to proceed. However, I encountered an error message that read, "Interface link did not come up time out.
+
+<br>
+<p align="center">
+  <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/9.PNG?raw=true">
+</p><br>
+
+After some troubleshooting, I discovered that the TFTP server configuration was incorrect, so I corrected the settings and attempted the TFTP file transfer process again.
+
+<br>
+<p align="center">
+  <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/12.PNG?raw=true">
+</p><br>
+
+I was  surprised to find out that the file transfer was successful this time, which made me very happy.
 
 
 
