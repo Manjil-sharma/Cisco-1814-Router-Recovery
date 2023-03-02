@@ -194,4 +194,17 @@ After some time, the exclamation marks stopped displaying and a message appeared
 
 </p><br>
       
+Then I booted the image using **boot flash:c1841-adventerprisek9-mz.124.9.t1.bin** command.
 
+<br>
+<p align="center">
+  <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/16.PNG?raw=true">
+</p><br>
+
+
+After some time, I saw some familiar looking text on my terminal indicating that I was in **User EXEC mode**. To switch to **Privileged EXEC mode**, I entered the command "**enable**" or "**en**" and also to **Global configuration mode** by using "**configure terminal**" or "**conf t**" for short. And just like that, I was able to access the necessary commands to recover the Cisco router. This was the process I followed.<br>
+
+<br>
+<p align="center">
+  <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/20.PNG?raw=true">
+</p><br>
