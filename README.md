@@ -146,12 +146,18 @@ I searched through various unofficial sites, but was unable to find the exact op
 </p><br>
 
 
+Based on the picture above, I have configured my PC as a TFTP server, with the IP address 192.168.102.49/24. I have also connected the router, which has an IP address of 192.168.102.24/24 and a default gateway of 192.168.102.1. Lastly, I accessed the router via console cable on my laptop.Next, I opened my laptop and used PuTTY to access the router. I then proceeded to configure the IP address and other necessary settings, as demonstrated in the figure below.<br>
 
 
 
+<br>
+<p align="center">
+  <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/7.PNG?raw=true">
+</p><br>
 
+I believe that the picture is self-explanatory and we can clearly understand what's happening. The TFTP_File command refers to the  file  that is going to be transfered from the TFTP server to a Cisco router.<br>
 
-
+In this scenario, the default gateway was not necessary since the TFTP server is on the same network. However, if the server was located on the internet or a different network, then providing the default gateway would be necessary for file transfer to work.<br>
 
 
 
