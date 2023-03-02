@@ -208,3 +208,6 @@ After some time, I saw some familiar looking text on my terminal indicating that
 <p align="center">
   <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/20.PNG?raw=true">
 </p><br>
+
+
+After working on it for a few days, I finally succeeded. It was a great learning experience, and I would like to thank Subam Bohora Sir for allowing me to handle the college property. I would also like to thank Chat GPT for providing me with a lot of help throughout this process.<br>
