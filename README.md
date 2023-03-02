@@ -179,7 +179,19 @@ After some troubleshooting, I discovered that the TFTP server configuration was 
 I was  surprised to find out that the file transfer was successful this time, which made me very happy.
 
 
+<br>
+<p align="center">
+  <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/14.PNG?raw=true">
+  <em>The TFTP server sending and the router receiving the file and storing in flash.</em>
+</p><br>
+
+After some time, the exclamation marks stopped displaying and a message appeared saying "**File reception completed**" and "**Copying file c1841-adventerprisek9-mz.124.9.t1.bin to flash: .**". Following that, the flash memory was formatted and the terminal gave the command line prompt. Then, I typed "**dir flash:**" to see the content of flash and confirmed that the IOS file was successfully transferred to the flash memory.
 
 
+<br>
+<p align="center">
+  <img src="https://github.com/Manjil-sharma/Cisco-1814-Router-Recovery/blob/main/Cisco-1814/15.PNG?raw=true">
+
+</p><br>
       
 
